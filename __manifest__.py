@@ -1,13 +1,13 @@
 # -*- encoding: utf-8 -*-
 {
-    'name': 'AZlogistik - POS',
+    'name': 'Odoo - POS',
     'version': '0.1.0',
     'license': 'LGPL-3',
     'category': 'point of sales',
-    'summary': 'AZlogistik - Point of Sale ',
+    'summary': 'Point of Sale Custom',
     'description': """
 
-AZlogistik Customization Module for Point of Sale
+Customization Module for Point of Sale
 ================================================
 Features : Custom Point Of Sales
 """,
@@ -19,12 +19,12 @@ Features : Custom Point Of Sales
     ],
     'assets': {
         "point_of_sale.assets": [
-            'azlogistik_pos/static/src/js/Screens/ProductScreen/ProductScreen.js',
-            'azlogistik_pos/static/src/js/Screens/TicketScreen/TicketScreen.js',
-            'azlogistik_pos/static/src/js/models.js',
+            'static/src/js/Screens/ProductScreen/ProductScreen.js',
+            'static/src/js/Screens/TicketScreen/TicketScreen.js',
+            'static/src/js/models.js',
         ],
         'web.assets_qweb': [
-            'azlogistik_pos/static/src/xml/Screens/ProductScreen/ProductItem.xml',
+            'static/src/xml/Screens/ProductScreen/ProductItem.xml',
         ],
     },
     'installable': True,
